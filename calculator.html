@@ -8,43 +8,52 @@
 </head>
 
 <body>
-
-    <div class="calculatorFrame">
-        <div class="calculatorResultFrame">
-            <div class="calculatorResultInput">
-                8008135
+    <div class="container">
+        <div class="calculatorFrame">
+            <div class="calculatorResultFrame">
+                <div class="calculatorResultInput">
+                    8008135
+                </div>
             </div>
-        </div>
-        <div class="calculatorLogo">
-            CalcuTron2000
-        </div>
-        <div class="calculatorOn">
-            ON
-        </div>
-        <div class="mainButtonContainer">
-            <div class="button">7</div>
-            <div class="button">8</div>
-            <div class="button">9</div>
-            <div class="button">X</div>
-            <div class="button">4</div>
-            <div class="button">5</div>
-            <div class="button">6</div>
-            <div class="button">-</div>
-            <div class="button">1</div>
-            <div class="button">2</div>
-            <div class="button">3</div>
-            <div class="button">+</div>
-            <div class="button buttonLarge">
-                0
+            <div class="flex-row">
+                <div class="calculatorLogo">
+                    CalcuTron2000
+                </div>
+                <div class="calculatorOn">
+                    ON
+                </div>
             </div>
-            <div class="button">.</div>
-            <div class="button">/</div>
-        </div>
-        <div class="buttonEnter">
-            ENTER
+            <div class="flex-row">
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+                <button class="button">X</button>
+            </div>
+            <div class="flex-row">
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+                <button class="button">-</button>
+            </div>
+            <div class="flex-row">
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+                <button class="button">+</button>
+            </div>
+            <div class="flex-row">
+                <div class="button buttonLarge">
+                    0
+                </div>
+                <button class="button">.</button>
+                <button class="button">/</button>
+            </div>
+            <button class="buttonEnter">ENTER</button>
         </div>
     </div>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
 </body>
 
 </html>
+<script src="calculator.js"></script>
